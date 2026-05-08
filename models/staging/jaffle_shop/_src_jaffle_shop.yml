@@ -1,7 +1,16 @@
+version: 2
+
 sources:
   - name: jaffle_shop
     database: raw
-    schema: jaffle_shop
     tables:
+      - name: customer_information
       - name: customers
+      - name: customers02
+      - name: items
       - name: orders
+      - name: orders02
+      - name: orders_01
+      - name: products
+      - name: stores
+      - name: supplies
