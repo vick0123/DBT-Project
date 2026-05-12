@@ -2,7 +2,7 @@ with
 
 source as (
 
-    select * from {{ source('jaffle_shop', 'customers') }}
+    select * from {{ source('jaffle_shop', 'stores') }}
 
 ),
 
@@ -10,8 +10,9 @@ renamed as (
 
     select
         id,
-        first_name,
-        last_name
+        name,
+        opened_at,
+        tax_rate
 
     from source
 
