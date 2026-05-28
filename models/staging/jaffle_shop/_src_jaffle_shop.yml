@@ -15,7 +15,6 @@ sources:
             data_tests:
               - unique
               - not_null
-      - name: customers02
       - name: items
       - name: orders
         description: Raw orders data.
@@ -25,8 +24,6 @@ sources:
             data_tests:
               - unique
               - not_null
-      - name: orders02
-      - name: orders_01
       - name: products
       - name: stores
       - name: supplies
